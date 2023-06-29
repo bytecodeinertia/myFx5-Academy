@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="https://www.momentcrm.com/embed"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>features</title>
+
+   <style class="text/css">
+    *{
+    box-sizing: border-box;
+    }
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    cursor: auto;  
+}
+.header01{
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+
+}
+.header01 h2{
+    font-size: 30px;
+    border: 20px solid;
+    background-color: blue;
+    border-style: outset;
+    text-transform: capitalize;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  padding: 10px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 30%; /* Set the width of the main content */
+  background-color: rgb(77, 74, 74); /* White background color */
+  padding: 15px; /* Some padding */
+}
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+article{
+ background-color: darkgrey;
+ padding: 40px;
+height:200px;
+margin: 20px;
+font-size: 20px;
+}
+
+  .article img{
+    width: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.article h2{
+  border: 20px  solid;
+  border-style: outset;
+  background-color: chartreuse;
+  text-transform: capitalize;
+}
+
+
+   </style>
+    <script src="https://kit.fontawesome.com/539c8805bc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="header01">
+    <h2>our features</h2>
+</div>
+
+   <div class="row">
+        <div class="side"><img src="./images/IMG-20230606-WA0008.jpg" alt="auto" width="auto" height="500px"></div>
+        <div class="main"><img src="./images/IMG-20230606-WA0020.jpg" alt="auto" width="auto" height="500px"></div>
+    </div>
+</div><!---row,side,main-->
+
+
+<div class="article">
+      <h2>become the very best in forex trading</h2>
+     <article>
+      <img src="./images/IMG-20230606-WA0012.jpg" alt="auto">
+        <p id="clear">Over the years! forex trading, has become a global trend <br> in terms of foreign exchange.
+        And these requires a great <br> level of mentoring to fully become a pro in the world of
+        forex <br> trading join us today! <a href="Register.html"> <span style="color: brown;">Register</span></a></p>
+     </article>
+
+     <div class="webinar">
+      <h2>watch live webinar on youtube</h2>
+      <article>
+        <img src="./images/Webinar 2023-06-07 at fx5 .jpeg" alt="auto" style="width:200px;">
+        <p>
+          you can visit our youTube channel to get updates on <br> your trading growths and video tutorials.<br> also a pre-recoreded clips would be shared.
+          <a href="http://youtube.com/@myfx5academy"><i class="fa-brands fa-youtube fa-beat" style="color: red;font-size: 100px;"></i></a>
+        </p>
+        
+      </article>
+     </div>
+</div>
+<script src="https://www.momentcrm.com/embed"></script>
+<script>
+  MomentCRM('init', {
+    'teamVanityId': 'myfx5academy',
+    'doChat': true,
+    'doTracking': true,
+  });
+</script>
+ 
+</body>
+</html>

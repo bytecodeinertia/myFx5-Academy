@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="jquery-3.4.1.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+
+    <style>
+
+        *{
+          margin: 0%;
+          padding: 3px;
+        }
+        body{
+            text-align: center;
+            background-image: url(./images/IMG-20230606-WA0010.jpg);
+        }
+        #myDIV{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: rgb(102, 224, 149);
+  margin-top: 20px;
+
+}
+button{
+    background-color: rgb(84, 84, 247);
+    color: azure;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:hover{
+    color: grey;
+    transition: 1s;
+    border-bottom: 2px solid;
+    
+}
+
+.animation{
+  width: 100px;
+  height: 100px;
+  background: rgb(245, 245, 245);
+  position: relative;
+  -webkit-animation: mymove 3s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s;
+  animation-iteration-count: infinite;
+  color: rgb(6, 54, 97);
+  border: 20px solid rgb(2, 109, 68);
+  border-style: outset;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+    </style>
+
+</head>
+<body>
+<button onclick="myFunction()">click to display or hide</button>
+<div id="myDIV">
+    <a href=" https://ads.google.com"><p id="demo1"></p>&#127968;place your advert</a>
+    <a href="#"><p id="demo2"></p>Real estates</a>
+    <a href="https://www.jumia.com.ng" title="clothing"><p id="demo3"></p>&#128086;clothing</a>
+    <a href="https://wa.me/message/IL7HSWGZIPGIO1" title="phones"><p id="demo4"></p>&#9742;phones</a>
+    <a href="https://www.westgate.ng" title="computer purchase"><p id="demo5"></p>computer purchase</a>
+</div>
+<div class="animation">
+    <p>
+     <h5>myfx5 academy</h5>
+     <h5>myfx5 academy</h5>
+     <h5>myfx5 academy</h5>
+    </p>
+</div>
+<div class="animation" style="float: right; background-color:peru;">
+    <p>
+     <h5>myfx5 academy</h5>
+     <h5>myfx5 academy</h5>
+     <h5>myfx5 academy</h5>
+    </p>
+</div>
+<script src="script.js">
+</script>
+ 
+</body>
+</html>

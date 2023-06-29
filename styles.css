@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:480px) {
+  
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:1px;
+  cursor: auto;
+}
+
+
+.header{
+    text-align: center;
+    padding: 15px;
+    background-color: #3b3a3a;
+}
+
+.header h3{
+    font-size: 40px;
+}
+
+.img1{
+  float: left;
+  border: 17px solid ;
+  border-style:outset;
+  bottom: 20px;
+  position: relative;
+  background-color: cyan;
+  
+}
+.navbar{
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+.navbar a{
+        float: left; /* Make sure that the links stay side-by-side */
+        display: block; /* Change the display to block, for responsive reasons (see below) */
+        color: white; /* White text color */
+        text-align: center; /* Center the text */
+        padding: 14px 20px; /* Add some padding */
+        text-decoration: none; /* Remove underline */
+      }
+      .navbar a:hover {
+        background-color: #ddd; /* Grey background color */
+        color: black; /* Black text color */
+      }
+      .navbar a.right{
+        float: right;
+      }
+
+      @media screen and (max-width: 700px) {
+        .row {
+          flex-direction: column;
+        }
+      }
+      
+      .image{
+        text-align: center;
+      }
+      .image h2{
+        bottom: 1pt;
+        position: absolute;
+        left: 240px;
+        font-size: 20px;
+        word-spacing: 7px;
+        font-size: 50px;
+        color: blue;
+      }
+      .row{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2px;
+     
+    }
+    .column{
+      display: grid;
+     
+    }
+
+    .side {
+      flex: 50%; /* Set the width of the sidebar */
+      background-color: #464444; /* Grey background color */
+      padding: 10px; /* Some padding */
+    }
+    
+    /* Main column */
+    .main {
+      flex: 50%; /* Set the width of the main content */
+      background-color: rgb(77, 74, 74); /* White background color */
+      padding: 15px; /* Some padding */
+    }
+    @media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+
+    }
+    .column a{
+      padding: 12px;
+      text-decoration: none;
+       background-color:rgb(32, 100, 102);
+       color: #ddd;
+      
+
+    }
+    .column :hover{
+      color: #070000;
+      transition: 1s;
+    }
+    h3{
+      color: #32a852;
+      }
+      
+        h3{
+        color: #32a852;
+        margin-top:30px;
+        }
+      
+        button{
+          cursor: pointer;
+          border: 1px solid #555;
+          text-align: center;
+          padding: 5px;
+          margin-left: 8px;
+        }
+        .dark{
+          background-color: #222;
+          color: #e6e6e6;
+        }
+    .mode{
+      border: 1px solid #32a852 ;
+      width: 20%;
+      padding: 2px;
+      background-color: #b9b5b5;
+    }
